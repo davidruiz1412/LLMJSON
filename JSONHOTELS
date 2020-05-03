@@ -1,0 +1,177 @@
+[
+{
+    "id":0,
+    "nom":"Hotel1",
+    "estrelles":"3",
+    "correu":"hotel1@gmail.com",
+    "datacreacio":"2001-12-13",
+    "atributsmascotes":{
+        "pesMascotes":"2kg",
+        "quantitatMascotes":"1"},
+    "fotos":{},
+    "habitaciones":[
+    {
+        "numhabitacion":"001",
+        "individual": 1,
+        "doble": 2,
+        "preu": [
+        {
+            "tempAlta": true,
+            "moneda": "€",
+            "valorNet": 10.0,
+            "impost": 16,
+            "valorTotal": 11.6
+        }
+        ]
+    },
+    {
+        "numhabitacion":"002",
+        "individual": 1,
+        "doble": 2,
+        "preu": [
+        {
+            "tempAlta": true,
+            "moneda": "€",
+            "valorNet": 10.0,
+            "impost": 16,
+            "valorTotal": 11.6
+        }
+        ]
+    },
+    {
+        "numhabitacion":"003",
+        "individual": 1,
+        "doble": 2,
+        "preu": [
+        {
+            "tempAlta": true,
+            "moneda": "€",
+            "valorNet": 10.0,
+            "impost": 16,
+            "valorTotal": 11.6
+        }
+        ]
+    }
+],
+    "piscinas":[true,true,false],
+    "bares":true,
+    "wifi":[true,false]
+},
+{
+    "id":1,
+    "nom":"Hotel2",
+    "estrelles":"4",
+    "correu":"hotel2@gmail.com",
+    "datacreacio":"2001-12-13",
+    "atributsmascotes":{
+        "pesMascotes":"2kg",
+        "quantitatMascotes":"1"},
+    "fotos":{},
+    "habitaciones":[
+        {
+            "numhabitacion":"101",
+            "individual": 1,
+            "doble": 2,
+            "preu": [
+            {
+                "tempAlta": true,
+                "moneda": "€",
+                "valorNet": 10.0,
+                "impost": 16,
+                "valorTotal": 11.6
+            }
+            ]
+        },
+        {
+            "numhabitacion":"102",
+            "individual": 1,
+            "doble": 2,
+            "preu": [
+            {
+                "tempAlta": true,
+                "moneda": "€",
+                "valorNet": 10.0,
+                "impost": 16,
+                "valorTotal": 11.6
+            }
+            ]
+        },
+        {
+            "numhabitacion":"103",
+            "individual": 1,
+            "doble": 2,
+            "preu": [
+            {
+                "tempAlta": true,
+                "moneda": "€",
+                "valorNet": 10.0,
+                "impost": 16,
+                "valorTotal": 11.6
+            }
+            ]
+        }
+    ],
+    "piscinas":[true,true,true],
+    "bares":false,
+    "wifi":[false,false]},
+    
+{
+    "id":2,
+    "nom":"Hotel3",
+    "estrelles":"4",
+    "correu":"hotel3@gmail.com",
+    "datacreacio":"2003-12-04",
+    "atributsmascotes":{
+        "pesMascotes":"2kg",
+        "quantitatMascotes":"1"},
+    "fotos":{},
+    "habitaciones":[
+        {
+            "numhabitacion":"301",
+            "individual": 1,
+            "doble": 2,
+            "preu": [
+            {
+                "tempAlta": true,
+                "moneda": "€",
+                "valorNet": 10.0,
+                "impost": 16,
+                "valorTotal": 11.6
+            }
+            ]
+        },
+        {
+            "numhabitacion":"302",
+            "individual": 1,
+            "doble": 2,
+            "preu": [
+            {
+                "tempAlta": true,
+                "moneda": "€",
+                "valorNet": 10.0,
+                "impost": 16,
+                "valorTotal": 11.6
+            }
+            ]
+        },
+        {
+            "numhabitacion":"303",
+            "individual": 1,
+            "doble": 2,
+            "preu": [
+            {
+                "tempAlta": true,
+                "moneda": "€",
+                "valorNet": 10.0,
+                "impost": 16,
+                "valorTotal": 11.6
+            }
+            ]
+        }
+    ],
+    "piscinas":[true,true,true],
+    "bares":true,
+    "wifi":[true,false]
+}
+]
+
