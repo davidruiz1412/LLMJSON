@@ -1,0 +1,2170 @@
+[
+        [
+            {
+                "id": 0,
+                "nom": "Hotel Pedro",
+                "estrelles": "3",
+                "correu": "hotelpedro@hotmail.com",
+                "datacreacio": "2016-04-03",
+                "atributsmascotes": {
+                    "pesMascotes": "2kg",
+                    "quantitatMascotes": "1"
+                },
+                "fotos": {},
+                "habitaciones": {
+                    "numHabitaciones": "3",
+                    "minibar": true,
+                    "balcon": false,
+                    "television": {
+                        "tieneTelevision": false,
+                        "canalesPago": true,
+                        "canalesExtranjeros": false
+                    }
+                },
+                "piscinas": [
+                    false,
+                    true,
+                    false
+                ],
+                "bares": true,
+                "tipusHabitacio": [
+                    {
+                        "id": 0,
+                        "nombre": "Habitación1",
+                        "camaIndividul": 1,
+                        "camaDoble": 0,
+                        "serveis": {
+                            "caixaForta": true,
+                            "balco": true,
+                            "aseo": true,
+                            "dutxa": false,
+                            "banyera": true,
+                            "telefon": true,
+                            "tv": true,
+                            "ac": true,
+                            "minibar": {
+                                "disponible": true,
+                                "carta": [
+                                    {
+                                        "coca-cola": [
+                                            {
+                                                "valor": 4,
+                                                "moneda": "€"
+                                            },
+                                            {
+                                                "valor": 3,
+                                                "moneda": "$"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "fanta": [
+                                            {
+                                                "valor": 5,
+                                                "moneda": "€"
+                                            },
+                                            {
+                                                "valor": 4,
+                                                "moneda": "$"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "preus": [
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 115,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 82,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 20,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 15,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": false
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 99,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 85,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 5,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 9,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 150,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 70,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 1.4,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "agregador": 1,
+                                    "temporadaBaixa": false
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 95,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 85,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 19,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 5,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 1,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 130,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 110,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 5,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "agregador": 2,
+                                    "temporadaBaixa": false
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 90,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 70,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 9,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 2,
+                                    "temporadaBaixa": true
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "nombre": "habitación2",
+                        "camaIndividul": 0,
+                        "camaDoble": 1,
+                        "serveis": {
+                            "caixaForta": true,
+                            "balco": true,
+                            "aseo": true,
+                            "dutxa": true,
+                            "banyera": false,
+                            "telefon": false,
+                            "tv": true,
+                            "ac": true,
+                            "minibar": {
+                                "disponible": false,
+                                "carta": [
+                                    {
+                                        "coca-cola": [
+                                            {
+                                                "valor": 4,
+                                                "moneda": "€"
+                                            },
+                                            {
+                                                "valor": 3,
+                                                "moneda": "$"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "fanta": [
+                                            {
+                                                "valor": 5,
+                                                "moneda": "€"
+                                            },
+                                            {
+                                                "valor": 4,
+                                                "moneda": "$"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "preus": [
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 80,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 900,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 5,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": false
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 60,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 70,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 19,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 5,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 105,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 95,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 9,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 1,
+                                    "temporadaBaixa": false
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 50,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 60,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 4,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "agregador": 1,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 75,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 85,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 25,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 2,
+                                    "temporadaBaixa": false
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 45,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 55,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 27,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 2,
+                                    "temporadaBaixa": true
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "Habitación3",
+                        "camaIndividul": 1,
+                        "camaDoble": 0,
+                        "serveis": {
+                            "caixaForta": true,
+                            "balco": true,
+                            "aseo": true,
+                            "dutxa": false,
+                            "banyera": true,
+                            "telefon": true,
+                            "tv": true,
+                            "ac": true,
+                            "minibar": {
+                                "disponible": true,
+                                "carta": [
+                                    {
+                                        "coca-cola": [
+                                            {
+                                                "valor": 4,
+                                                "moneda": "€"
+                                            },
+                                            {
+                                                "valor": 3,
+                                                "moneda": "$"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "fanta": [
+                                            {
+                                                "valor": 5,
+                                                "moneda": "€"
+                                            },
+                                            {
+                                                "valor": 4,
+                                                "moneda": "$"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "preus": [
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 103,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 81,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 20,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 90,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 85,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 12,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 5,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 90,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 6,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 19,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": false
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 103,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 81.5,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 95,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 85,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 1,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ]
+                        ]
+                    }
+                ]   
+            },
+            {
+                "id": 1,
+                "nom": "Hotel Carlos",
+                "estrelles": "4",
+                "correu": "hotelcarlos@hotmail.com",
+                "datacreacio": "2018-11-01",
+                "atributsmascotes": {
+                    "pesMascotes": "8kg",
+                    "quantitatMascotes": "3"
+                },
+                "fotos": {},
+                "habitaciones": {
+                    "numHabitaciones": "3",
+                    "minibar": true,
+                    "balcon": true,
+                    "television": {
+                        "tieneTelevision": true,
+                        "canalesPago": true,
+                        "canalesExtranjeros": true
+                    }
+                },
+                "piscinas": [
+                    true,
+                    true,
+                    false
+                ],
+                "bares": true,
+                "wifi": [
+                    true,
+                    false
+                ],
+                "tipusHabitacio": [
+                    {
+                        "id": 0,
+                        "nombre": "Habitación1",
+                        "camaIndividul": 1,
+                        "camaDoble": 0,
+                        "serveis": {
+                            "caixaForta": true,
+                            "balco": true,
+                            "aseo": true,
+                            "dutxa": false,
+                            "banyera": true,
+                            "telefon": true,
+                            "tv": true,
+                            "ac": true,
+                            "minibar": {
+                                "disponible": true,
+                                "carta": [
+                                    {
+                                        "coca-cola": [
+                                            {
+                                                "valor": 17,
+                                                "moneda": "€"
+                                            },
+                                            {
+                                                "valor": 16,
+                                                "moneda": "$"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "fanta": [
+                                            {
+                                                "valor": 17,
+                                                "moneda": "€"
+                                            },
+                                            {
+                                                "valor": 16,
+                                                "moneda": "$"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "preus": [
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 38,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 34,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 2,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 19,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 90,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 85,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 19,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 5,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 108,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 88,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 74,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 70,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 1,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 19,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "nombre": "Habitación2",
+                        "camaIndividul": 1,
+                        "camaDoble": 0,
+                        "serveis": {
+                            "caixaForta": true,
+                            "balco": true,
+                            "aseo": true,
+                            "dutxa": false,
+                            "banyera": true,
+                            "telefon": true,
+                            "tv": true,
+                            "ac": true,
+                            "minibar": {
+                                "disponible": true,
+                                "carta": [
+                                    {
+                                        "coca-cola": [
+                                            {
+                                                "valor": 4,
+                                                "moneda": "€"
+                                            },
+                                            {
+                                                "valor": 3,
+                                                "moneda": "$"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "fanta": [
+                                            {
+                                                "valor": 5,
+                                                "moneda": "€"
+                                            },
+                                            {
+                                                "valor": 4,
+                                                "moneda": "$"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "preus": [
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 90,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 85,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 19,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 5,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 177,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 156,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "Habitación3",
+                        "camaIndividul": 1,
+                        "camaDoble": 0,
+                        "serveis": {
+                            "caixaForta": true,
+                            "balco": true,
+                            "aseo": true,
+                            "dutxa": false,
+                            "banyera": true,
+                            "telefon": true,
+                            "tv": true,
+                            "ac": true,
+                            "minibar": {
+                                "disponible": true,
+                                "carta": [
+                                    {
+                                        "coca-cola": [
+                                            {
+                                                "valor": 4,
+                                                "moneda": "€"
+                                            },
+                                            {
+                                                "valor": 3,
+                                                "moneda": "$"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "fanta": [
+                                            {
+                                                "valor": 5,
+                                                "moneda": "€"
+                                            },
+                                            {
+                                                "valor": 4,
+                                                "moneda": "$"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "preus": [
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 90,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 85,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 19,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 5,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "nom": "Hotel Juan",
+                "estrelles": "2",
+                "correu": "hoteljuan@hotmail.com",
+                "datacreacio": "2017-11-01",
+                "atributsmascotes": {
+                    "pesMascotes": "4kg",
+                    "quantitatMascotes": "2"
+                },
+                "fotos": {},
+                "habitaciones": {
+                    "numHabitaciones": "3",
+                    "minibar": true,
+                    "balcon": true,
+                    "television": {
+                        "tieneTelevision": true,
+                        "canalesPago": true,
+                        "canalesExtranjeros": false
+                    }
+                },
+                "piscinas": [
+                    true,
+                    true,
+                    false
+                ],
+                "bares": true,
+                "wifi": [
+                    true,
+                    false
+                ],
+                "tipusHabitacio": [
+                    {
+                        "id": 0,
+                        "nombre": "Habitación1",
+                        "camaIndividul": 1,
+                        "camaDoble": 0,
+                        "serveis": {
+                            "caixaForta": true,
+                            "balco": true,
+                            "aseo": true,
+                            "dutxa": false,
+                            "banyera": true,
+                            "telefon": true,
+                            "tv": true,
+                            "ac": true,
+                            "minibar": {
+                                "disponible": true,
+                                "carta": [
+                                    {
+                                        "coca-cola": [
+                                            {
+                                                "valor": 4,
+                                                "moneda": "€"
+                                            },
+                                            {
+                                                "valor": 3,
+                                                "moneda": "$"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "fanta": [
+                                            {
+                                                "valor": 5,
+                                                "moneda": "€"
+                                            },
+                                            {
+                                                "valor": 4,
+                                                "moneda": "$"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "preus": [
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 90,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 85,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 19,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 5,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 300,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 285,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": false
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 55,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 45,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 23,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 1,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 103,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 98,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 14,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "nombre": "Habitación2",
+                        "camaDoble": 0,
+                        "serveis": {
+                            "caixaForta": true,
+                            "balco": true,
+                            "aseo": true,
+                            "dutxa": false,
+                            "banyera": true,
+                            "telefon": true,
+                            "tv": true,
+                            "ac": true,
+                            "minibar": {
+                                "disponible": true,
+                                "carta": [
+                                    {
+                                        "coca-cola": [
+                                            {
+                                                "valor": 4,
+                                                "moneda": "€"
+                                            },
+                                            {
+                                                "valor": 3,
+                                                "moneda": "$"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "fanta": [
+                                            {
+                                                "valor": 5,
+                                                "moneda": "€"
+                                            },
+                                            {
+                                                "valor": 4,
+                                                "moneda": "$"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "preus": [
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 90,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 85,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 19,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 5,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 95,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 91,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "Habitación3",
+                        "camaIndividul": 1,
+                        "camaDoble": 0,
+                        "serveis": {
+                            "caixaForta": true,
+                            "balco": true,
+                            "aseo": true,
+                            "dutxa": false,
+                            "banyera": true,
+                            "telefon": true,
+                            "tv": true,
+                            "ac": true,
+                            "minibar": {
+                                "disponible": true,
+                                "carta": [
+                                    {
+                                        "coca-cola": [
+                                            {
+                                                "valor": 1,
+                                                "moneda": "€"
+                                            },
+                                            {
+                                                "valor": 0.8,
+                                                "moneda": "$"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "fanta": [
+                                            {
+                                                "valor": 1,
+                                                "moneda": "€"
+                                            },
+                                            {
+                                                "valor": 0.8,
+                                                "moneda": "$"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "preus": [
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 45,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 40,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 17,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 90,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 85,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 19,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 5,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 23,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 100,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 80,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 50,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 40,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 22,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": false
+                                }
+                            ],
+                            [
+                                {
+                                    "base": [
+                                        {
+                                            "valor": 101,
+                                            "moneda": "€"
+                                        },
+                                        {
+                                            "valor": 81,
+                                            "moneda": "$"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "impostos": {
+                                        "valor": 21,
+                                        "tipus": "%"
+                                    }
+                                },
+                                {
+                                    "comisio": {
+                                        "valor": 10,
+                                        "tipus": "€"
+                                    }
+                                },
+                                {
+                                    "agregador": 0,
+                                    "temporadaBaixa": true
+                                }
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": 0,
+                "nom": "hotelsMallorca",
+                "mail": "hotelsmallorca@gmail.com",
+                "telefon": "722456790",
+                "direccio": "carrer mallorca 74",
+                "nomDirector": "Antonio Pérez"
+            },
+            {
+                "id": 1,
+                "nom": "hotelsMenorca",
+                "mail": "hotelsmenorca@gmail.com",
+                "telefon": "685234561",
+                "direccio": "carrer avui 5",
+                "nomDirector": "Miquel montoro"
+            },
+            {
+                "id": 2,
+                "nom": "hotelsMenorca",
+                "mail": "hotelsmenorca@gmail.com",
+                "telefon": "616953700",
+                "direccio": "carrer 64",
+                "nomDirector": "Sebastiana Garcia"
+            }
+        ]
+    ]
